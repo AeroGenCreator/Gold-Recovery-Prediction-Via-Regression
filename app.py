@@ -168,7 +168,7 @@ def testing_model_1(model,X,Y,metadata):
             line=dict(color="Red", dash="dash"))
         st.plotly_chart(fig_scatter, width='content')
 
-    st.markdown(f'**MAPE Score: `{score:.4f}%`**. RMSE Score: `{rmse:.4f}`. MAE Score: `{mae:.4f}`.',text_alignment='center')
+    st.markdown(f'**sMAPE Score: `{score:.4f}%`**. RMSE Score: `{rmse:.4f}`. MAE Score: `{mae:.4f}`.',text_alignment='center')
     with st.expander(':material/dataset: Preview Predictions'):
         st.dataframe(df_results)
     
@@ -221,7 +221,7 @@ def testing_model_2(model,X,Y,metadata):
             line=dict(color="Red", dash="dash"))
         st.plotly_chart(fig_scatter, width='content')
 
-    st.markdown(f'**MAPE Score: `{score:.4f}%`**. RMSE Score: `{rmse:.4f}`. MAE Score: `{mae:.4f}`.',text_alignment='center')
+    st.markdown(f'**sMAPE Score: `{score:.4f}%`**. RMSE Score: `{rmse:.4f}`. MAE Score: `{mae:.4f}`.',text_alignment='center')
     with st.expander(':material/dataset: Preview Predictions'):
         st.dataframe(df_results)
 
@@ -260,5 +260,5 @@ with col4:
     mape_2 = testing_model_2(model=GradientBoostingRegressor_2,X=final_x,Y=final_y,metadata=meta_final)
 
 st.subheader(
-    f':material/workspace_premium: Weighted MAPE $(0.25 Rougher)$ $(0.75 Final)$ Score: :green[${(mape_1 * 0.25) + (mape_2 * 0.75)}$%]',
+    f':material/workspace_premium: Weighted sMAPE $(0.25 Rougher)$ $(0.75 Final)$ Score: :green[${(mape_1 * 0.25) + (mape_2 * 0.75)}$%]',
     text_alignment='center')
