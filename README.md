@@ -48,6 +48,10 @@
 
 ## Optimización de la Recuperación de Oro mediante Machine Learning
 
+![alt image](https://github.com/AeroGenCreator/Gold-Recovery-Prediction-Via-Regression/blob/main/images/snap_1.png)
+
+## [DASHBOARD](https://gold-recovery-prediction-via-regression.onrender.com)
+
 📝 Descripción del Proyecto
 
 Este proyecto simula el proceso tecnológico de extracción de oro de la minería real. El objetivo es predecir la cantidad de oro recuperado del mineral de oro mediante modelos de regresión, optimizando la eficiencia de la planta de producción y ayudando a descartar parámetros desfavorables.
