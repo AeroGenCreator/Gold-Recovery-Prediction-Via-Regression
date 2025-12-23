@@ -94,6 +94,7 @@ El modelo final se construyó bajo un esquema de dos etapas (Rougher y Final), l
     sMAPE Ponderado Final: 1.26% 🚀
 
 Este bajo error porcentual demuestra la robustez de los modelos (especialmente Gradient Boosting) para predecir la recuperación con alta precisión.
+
 🛠️ Tecnologías Utilizadas
 
     Python: Pandas, NumPy, Scipy.
